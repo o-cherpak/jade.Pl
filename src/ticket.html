@@ -7,6 +7,8 @@
     <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="output.css" />
     <script src="../scripts/menu.js"></script>
+    <script src="../scripts/toTicket.js"></script>
+    <script src="../scripts/takeData.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -53,6 +55,174 @@
 
       <a href="#" class="block py-2 text-lg text-white">Contact</a>
     </nav>
+
+    <main class="flex flex-col bg-gray-800 p-10">
+      <div class="flex flex-row items-start justify-between space-y-10">
+        <h2 class="text-white text-left pt-4 text-3xl xl:text-4xl font-bold">
+          Bus schedule: <span id="pointA">Kyiv</span> -
+          <span id="pointB">Krakow</span>
+        </h2>
+
+        <h2
+          id="date"
+          class="text-white text-left pt-4 text-xl xl:text-2xl font-medium"
+        >
+          02.17.2025
+        </h2>
+      </div>
+
+      <div class="flex flex-col items-center justify-center gap-6">
+        <div
+          class="w-full bg-white rounded-2xl shadow-xl p-6 flex flex-col md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-2">
+              Ticket Details
+            </h3>
+
+            <div class="flex flex-col gap-2 text-gray-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-arrow-right-to-city text-blue-500"></i>
+                <span>Departure:</span>
+
+                <span id="departureTime" class="font-medium text-gray-900"
+                  >10:00 AM</span
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <i
+                  class="fa-solid fa-arrow-right-from-bracket text-green-500"
+                ></i>
+
+                <span>Arrival:</span>
+
+                <span id="arrivalTime" class="font-medium text-gray-900"
+                  >2:00 PM</span
+                >
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-ticket text-yellow-500"></i>
+
+                <span>Price:</span>
+
+                <span id="ticketPrice" class="font-medium text-gray-900"
+                  >$50</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <button
+            id="buyButton"
+            class="mt-4 md:mt-0 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg shadow hover:from-blue-600 hover:to-blue-800 transition-all font-semibold text-lg flex items-center gap-2"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Buy Ticket
+          </button>
+        </div>
+
+        <div
+          class="w-full bg-white rounded-2xl shadow-xl p-6 flex flex-col md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-2">
+              Ticket Details
+            </h3>
+
+            <div class="flex flex-col gap-2 text-gray-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-arrow-right-to-city text-blue-500"></i>
+                <span>Departure:</span>
+
+                <span id="departureTime" class="font-medium text-gray-900"
+                  >10:00 AM</span
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <i
+                  class="fa-solid fa-arrow-right-from-bracket text-green-500"
+                ></i>
+
+                <span>Arrival:</span>
+
+                <span id="arrivalTime" class="font-medium text-gray-900"
+                  >2:00 PM</span
+                >
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-ticket text-yellow-500"></i>
+
+                <span>Price:</span>
+
+                <span id="ticketPrice" class="font-medium text-gray-900"
+                  >$50</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <button
+            id="buyButton"
+            class="mt-4 md:mt-0 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg shadow hover:from-blue-600 hover:to-blue-800 transition-all font-semibold text-lg flex items-center gap-2"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Buy Ticket
+          </button>
+        </div>
+
+        <div
+          class="w-full bg-white rounded-2xl shadow-xl p-6 flex flex-col md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-2">
+              Ticket Details
+            </h3>
+
+            <div class="flex flex-col gap-2 text-gray-700">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-arrow-right-to-city text-blue-500"></i>
+                <span>Departure:</span>
+
+                <span id="departureTime" class="font-medium text-gray-900"
+                  >10:00 AM</span
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <i
+                  class="fa-solid fa-arrow-right-from-bracket text-green-500"
+                ></i>
+
+                <span>Arrival:</span>
+
+                <span id="arrivalTime" class="font-medium text-gray-900"
+                  >2:00 PM</span
+                >
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-ticket text-yellow-500"></i>
+
+                <span>Price:</span>
+
+                <span id="ticketPrice" class="font-medium text-gray-900"
+                  >$50</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <button
+            id="buyButton"
+            class="mt-4 md:mt-0 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-3 rounded-lg shadow hover:from-blue-600 hover:to-blue-800 transition-all font-semibold text-lg flex items-center gap-2"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Buy Ticket
+          </button>
+        </div>
+      </div>
+    </main>
 
     <footer
       class="flex flex-col items-center justify-center bg-gray-800 p-10 text-white space-y-6"
