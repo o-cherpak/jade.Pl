@@ -7,6 +7,11 @@
     <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="src/output.css" />
     <script src="scripts/menu.js"></script>
+    <script src="scripts/toTicket.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -79,7 +84,8 @@
             />
             <button
               type="submit"
-              class="w-full rounded bg-blue-600 px-6 py-2 text-white hover:bg-blue-800 md:w-auto"
+              onclick="toTicket()"
+              class="w-full rounded bg-blue-600 px-6 py-2 text-white hover:bg-blue-800 md:w-auto hover:cursor-pointer"
             >
               Search
             </button>
@@ -277,5 +283,46 @@
         </div>
       </section>
     </main>
+
+    <footer
+      class="flex flex-col items-center justify-center bg-gray-800 p-10 text-white space-y-6"
+    >
+      <div class="flex space-x-4 md:space-x-10">
+        <i
+          class="fab fa-facebook text-blue-600 text-3xl md:text-4xl hover:text-blue-800"
+        ></i>
+
+        <i
+          class="fab fa-twitter text-sky-500 text-3xl md:text-4xl hover:text-sky-700"
+        ></i>
+
+        <i
+          class="fab fa-instagram text-pink-500 text-3xl md:text-4xl hover:text-pink-700"
+        ></i>
+
+        <i
+          class="fab fa-linkedin text-blue-700 text-3xl md:text-4xl hover:text-blue-900"
+        ></i>
+
+        <i
+          class="fab fa-youtube text-red-600 text-3xl md:text-4xl hover:text-red-800"
+        ></i>
+      </div>
+
+      <div class="mt-4">
+        <p class="text-center text-white text-xl">
+          &copy; 2023 Jade.PL. All rights reserved.
+        </p>
+
+        <p class="text-center text-white text-xl">Made with ❤️ by Jade Team</p>
+
+        <p class="text-white pt-6 text-center">
+          Don't postpone a business trip or a trip because you couldn't buy bus
+          tickets in time. With the Jade.PL service, you can find seats on a
+          convenient bus to the desired destination even a couple of days before
+          your trip.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
