@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jade.PL</title>
+    <link rel="icon" href="../images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="output.css" />
     <script src="../scripts/menu.js"></script>
     <link
@@ -15,20 +16,20 @@
     <header
       class="flex items-center justify-between bg-gray-900 p-5 px-6 text-white md:px-20"
     >
-      <a class="flex items-center space-x-4" href="#../index">
+      <a class="flex items-center space-x-4" href="../index.html">
         <img class="h-10 w-10" src="../images/logo.png" alt="logo" />
 
         <h1 class="text-xl font-bold">Jade.PL</h1>
       </a>
 
       <nav class="hidden space-x-6 md:flex">
-        <a href="#" class="text-xl">Home</a>
+        <a href="../index.html" class="text-xl">Home</a>
 
-        <a href="#" class="text-xl">Buy ticket</a>
+        <a href="../index.html#buy-ticket" class="text-xl">Buy ticket</a>
 
-        <a href="#" class="text-xl">About</a>
+        <a href="../index.html#about" class="text-xl">About</a>
 
-        <a href="#" class="text-xl">Contact</a>
+        <a href="../index.html#footer" class="text-xl">Contact</a>
       </nav>
 
       <button onclick="toggleMenu()" class="md:hidden">
@@ -44,13 +45,19 @@
     </header>
 
     <nav id="mobile-menu" class="hidden bg-gray-900 px-6 pb-4 md:hidden">
-      <a href="#" class="block py-2 text-lg text-white">Home</a>
+      <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
 
-      <a href="#" class="block py-2 text-lg text-white">Buy ticket</a>
+      <a href="../index.html#buy-ticket" class="block py-2 text-lg text-white"
+        >Buy ticket</a
+      >
 
-      <a href="#" class="block py-2 text-lg text-white">About</a>
+      <a href="../index.html#about" class="block py-2 text-lg text-white"
+        >About</a
+      >
 
-      <a href="#" class="block py-2 text-lg text-white">Contact</a>
+      <a href="../index.html#footer" class="block py-2 text-lg text-white"
+        >Contact</a
+      >
     </nav>
 
     <main class="bg-gray-800 py-10 xl:px-10 md:px-6 px-2">
@@ -60,7 +67,7 @@
         Questions
       </h1>
 
-      <div class="border-b-2 border-white">
+      <div id="online" class="border-b-2 border-white">
         <h2 class="text-2xl md:text-4xl font-bold text-white mb-2">
           Bus tickets online <i class="fas fa-question"></i>
         </h2>
@@ -73,7 +80,7 @@
         </p>
       </div>
 
-      <div class="border-b-2 border-white pt-10 md:pt-20">
+      <div id="print" class="border-b-2 border-white pt-10 md:pt-20">
         <h2 class="text-2xl md:text-4xl font-bold text-white mb-2">
           Can I print my bus ticket <i class="fas fa-question"></i>
         </h2>
@@ -85,7 +92,7 @@
         </p>
       </div>
 
-      <div class="border-b-2 border-white pt-10 md:pt-20">
+      <div id="e-ticket" class="border-b-2 border-white pt-10 md:pt-20">
         <h2 class="text-2xl md:text-4xl font-bold text-white mb-2">
           What is an electronic ticket <i class="fas fa-question"></i>
         </h2>
@@ -97,7 +104,7 @@
         </p>
       </div>
 
-      <div class="pt-10 md:pt-20">
+      <div id="return" class="pt-10 md:pt-20">
         <h2 class="text-2xl md:text-4xl font-bold text-white mb-2">
           How can I return my bus tickets <i class="fas fa-question"></i>
         </h2>
