@@ -6,6 +6,9 @@
     <title>Jade.pl</title>
     <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="src/output.css" />
+    <script src="/scripts/loadCities.js" type="module"></script>
+    <script defer type="module" src="scripts/autocomplete.js"></script>
+    <script defer type="module" src="scripts/validateForm.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -21,7 +24,6 @@
     />
 
     <script src="scripts/menu.js"></script>
-    <script src="scripts/autocomplete.js"></script>
   </head>
 
   <body>
@@ -79,6 +81,7 @@
           </h2>
 
           <form
+            id="form"
             action="src/ticket.html"
             method="GET"
             class="flex w-full max-w-6xl flex-col items-center gap-4 rounded-xl bg-white p-4 text-black md:flex-row md:gap-6"
@@ -125,7 +128,7 @@
         </h2>
 
         <div
-          class="grid max-w-6xl grid-cols-1 items-center self-center gap-2 px-2 pb-4 opacity-94 md:grid-cols-3 md:gap-2 md:px-4 xl:gap-10 xl:px-6 xl:py-10"
+          class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-center self-center gap-2 px-2 pb-4 opacity-94 md:grid-cols-3 md:gap-2 md:px-4 xl:gap-10 xl:px-6 xl:py-10"
         >
           <div
             class="flex flex-col items-center rounded-xl bg-white p-6 text-center shadow-lg"
@@ -167,8 +170,8 @@
             />
 
             <p class="font-medium text-black xl:text-lg">
-              Our platform works quickly and smoothly, so you can find routes
-              and buy tickets without delays.
+              Our platform works smoothly, you can find routes and buy tickets
+              without delays.
             </p>
           </div>
         </div>

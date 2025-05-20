@@ -262,8 +262,8 @@
   .max-w-6xl {
     max-width: var(--container-6xl);
   }
-  .grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .grid-cols-\[repeat\(auto-fit\,minmax\(200px\,1fr\)\)\] {
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   }
   .flex-col {
     flex-direction: column;
@@ -831,7 +831,7 @@ html {
 section {
   animation: appear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 35%;
 }
 .ui-autocomplete {
   background-color: white;

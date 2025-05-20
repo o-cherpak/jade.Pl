@@ -19,7 +19,7 @@ html {
 section {
   animation: appear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 35%;
 }
 
 .ui-autocomplete {

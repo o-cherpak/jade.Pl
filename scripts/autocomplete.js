@@ -1,10 +1,9 @@
-$(document).ready(function () {
-  fetch("./src/cities.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const cities = data.map((city) => city.name);
+import { getCities } from "./loadCities.js";
 
-      $("#cityInputA").autocomplete({ source: cities });
-      $("#cityInputB").autocomplete({ source: cities });
-    });
+$(async function () {
+  const cities = await getCities();
+  const cityNames = cities.map((c) => c.name);
+
+  $("#cityInputA").autocomplete({ source: cityNames });
+  $("#cityInputB").autocomplete({ source: cityNames });
 });
