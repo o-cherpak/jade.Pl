@@ -1,4 +1,4 @@
-import { getCities } from "./loadCities.js";
+import { getCities } from "./loadData.js";
 
 $(async function () {
   const cities = await getCities();

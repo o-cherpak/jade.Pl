@@ -1,0 +1,28 @@
+[
+  {
+    "startId": 73,
+    "endId": 9,
+    "departure": "08:00",
+    "arrival": "9:00",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+
+  {
+    "startId": 73,
+    "endId": 9,
+    "departure": "10:00",
+    "arrival": "11:00",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+
+  {
+    "startId": 73,
+    "endId": 9,
+    "departure": "19:00",
+    "arrival": "20:00",
+    "price": 9,
+    "date": "2025-05-21"
+  }
+]

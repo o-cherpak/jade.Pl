@@ -6,6 +6,7 @@
     <title>Jade.pl</title>
     <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="/src/animation.css" />
     <script src="/scripts/loadCities.js" type="module"></script>
     <script defer type="module" src="scripts/autocomplete.js"></script>
     <script defer type="module" src="scripts/validateForm.js"></script>
@@ -71,7 +72,7 @@
     <main>
       <section class="welcome-section">
         <div
-          class="flex flex-col items-center justify-center space-y-6 bg-gray-800 px-4 py-8 text-white md:py-20"
+          class="relative flex flex-col items-center justify-center space-y-6 bg-gray-800 px-4 py-8 text-white md:py-20"
         >
           <h2
             id="buy-ticket"
@@ -115,6 +116,10 @@
               Search
             </button>
           </form>
+
+          <div id="alert" class="bg-white p-4 rounded-3xl hidden">
+            <h2 class="text-shadow-red-600 font-bold">Cities are incorrect!</h2>
+          </div>
         </div>
       </section>
 
@@ -208,6 +213,7 @@
 
         <div class="flex w-full justify-center items-end">
           <img
+            id="logo"
             class="h-60 sm:h-80 md:h-64 xl:h-80 w-fit rounded-4xl shadow-lg"
             src="images/logo.png"
             alt="green-worker"
