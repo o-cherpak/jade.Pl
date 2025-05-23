@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="output.css" />
     <script src="../scripts/myTicket.js"></script>
+    <script src="../scripts/menu.js"></script>
   </head>
   <body>
     <header
@@ -21,7 +22,7 @@
         <h1 class="text-xl font-bold">Jade.PL</h1>
       </a>
 
-      <nav class="hidden space-x-6 md:flex">
+      <nav class="hidden space-x-6 md:flex items-center">
         <a href="../index.html" class="text-xl font-bold">Home</a>
 
         <a href="../index.html#buy-ticket" class="text-xl font-bold"
@@ -31,6 +32,10 @@
         <a href="../index.html#about" class="text-xl font-bold">About</a>
 
         <a href="../index.html#footer" class="text-xl font-bold">Contact</a>
+
+        <a href="myTicket.html"
+          ><i class="fa-solid fa-user text-xl text-white"></i>
+        </a>
       </nav>
 
       <button onclick="toggleMenu()" class="md:hidden">
@@ -45,20 +50,26 @@
       </button>
     </header>
 
-    <nav id="mobile-menu" class="hidden bg-gray-900 px-6 pb-4 md:hidden">
-      <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
+    <nav id="mobile-menu" class="flex flex-row justify-between items-center bg-gray-900 px-6 pb-4 md:hidden">
+      <div>
+        <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
 
-      <a href="../index.html#buy-ticket" class="block py-2 text-lg text-white"
-        >Buy ticket</a
-      >
+        <a href="../index.html#buy-ticket" class="block py-2 text-lg text-white"
+          >Buy ticket</a
+        >
 
-      <a href="../index.html#about" class="block py-2 text-lg text-white"
-        >About</a
-      >
+        <a href="../index.html#about" class="block py-2 text-lg text-white"
+          >About</a
+        >
 
-      <a href="../index.html#footer" class="block py-2 text-lg text-white"
-        >Contact</a
-      >
+        <a href="../index.html#footer" class="block py-2 text-lg text-white"
+          >Contact</a
+        >
+      </div>
+
+      <a href="myTicket.html"
+        ><i class="fa-solid fa-user text-xl text-white"></i>
+      </a>
     </nav>
 
     <main>
@@ -72,8 +83,7 @@
         <div
           id="myticketsContainer"
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4"
-        >
-        </div>
+        ></div>
       </section>
     </main>
 
