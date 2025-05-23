@@ -3,26 +3,392 @@
     "startId": 73,
     "endId": 9,
     "departure": "08:00",
-    "arrival": "9:00",
+    "arrival": "09:00",
     "price": 9,
     "date": "2025-05-21"
   },
-
   {
-    "startId": 73,
-    "endId": 9,
+    "startId": 42,
+    "endId": 15,
     "departure": "10:00",
     "arrival": "11:00",
+    "price": 12,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 5,
+    "endId": 87,
+    "departure": "12:00",
+    "arrival": "13:00",
+    "price": 7,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 64,
+    "endId": 33,
+    "departure": "14:00",
+    "arrival": "15:00",
+    "price": 15,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 18,
+    "endId": 91,
+    "departure": "16:00",
+    "arrival": "17:00",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 27,
+    "endId": 56,
+    "departure": "18:00",
+    "arrival": "19:00",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 99,
+    "endId": 3,
+    "departure": "20:00",
+    "arrival": "21:00",
+    "price": 11,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 14,
+    "endId": 72,
+    "departure": "22:00",
+    "arrival": "23:00",
+    "price": 14,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 61,
+    "endId": 45,
+    "departure": "06:30",
+    "arrival": "07:30",
+    "price": 6,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 8,
+    "endId": 95,
+    "departure": "09:30",
+    "arrival": "10:30",
+    "price": 13,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 37,
+    "endId": 22,
+    "departure": "11:30",
+    "arrival": "12:30",
     "price": 9,
     "date": "2025-05-21"
   },
-
   {
-    "startId": 73,
-    "endId": 9,
-    "departure": "19:00",
-    "arrival": "20:00",
+    "startId": 50,
+    "endId": 51,
+    "departure": "13:30",
+    "arrival": "14:30",
+    "price": 5,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 83,
+    "endId": 17,
+    "departure": "15:30",
+    "arrival": "16:30",
+    "price": 12,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 29,
+    "endId": 68,
+    "departure": "17:30",
+    "arrival": "18:30",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 76,
+    "endId": 41,
+    "departure": "19:30",
+    "arrival": "20:30",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 12,
+    "endId": 79,
+    "departure": "21:30",
+    "arrival": "22:30",
+    "price": 11,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 55,
+    "endId": 24,
+    "departure": "23:30",
+    "arrival": "00:30",
+    "price": 7,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 90,
+    "endId": 10,
+    "departure": "05:15",
+    "arrival": "06:15",
     "price": 9,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 7,
+    "endId": 88,
+    "departure": "07:15",
+    "arrival": "08:15",
+    "price": 14,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 48,
+    "endId": 31,
+    "departure": "09:15",
+    "arrival": "10:15",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 21,
+    "endId": 66,
+    "departure": "11:15",
+    "arrival": "12:15",
+    "price": 6,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 93,
+    "endId": 4,
+    "departure": "13:15",
+    "arrival": "14:15",
+    "price": 12,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 35,
+    "endId": 59,
+    "departure": "15:15",
+    "arrival": "16:15",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 70,
+    "endId": 26,
+    "departure": "17:15",
+    "arrival": "18:15",
+    "price": 11,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 16,
+    "endId": 82,
+    "departure": "19:15",
+    "arrival": "20:15",
+    "price": 13,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 43,
+    "endId": 57,
+    "departure": "21:15",
+    "arrival": "22:15",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 94,
+    "endId": 20,
+    "departure": "23:15",
+    "arrival": "00:15",
+    "price": 7,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 2,
+    "endId": 78,
+    "departure": "04:45",
+    "arrival": "05:45",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 65,
+    "endId": 39,
+    "departure": "06:45",
+    "arrival": "07:45",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 28,
+    "endId": 71,
+    "departure": "08:45",
+    "arrival": "09:45",
+    "price": 12,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 51,
+    "endId": 13,
+    "departure": "10:45",
+    "arrival": "11:45",
+    "price": 6,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 84,
+    "endId": 47,
+    "departure": "12:45",
+    "arrival": "13:45",
+    "price": 14,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 36,
+    "endId": 62,
+    "departure": "14:45",
+    "arrival": "15:45",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 19,
+    "endId": 85,
+    "departure": "16:45",
+    "arrival": "17:45",
+    "price": 11,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 77,
+    "endId": 30,
+    "departure": "18:45",
+    "arrival": "19:45",
+    "price": 7,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 44,
+    "endId": 96,
+    "departure": "20:45",
+    "arrival": "21:45",
+    "price": 13,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 60,
+    "endId": 25,
+    "departure": "22:45",
+    "arrival": "23:45",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 1,
+    "endId": 100,
+    "departure": "00:45",
+    "arrival": "01:45",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 32,
+    "endId": 67,
+    "departure": "03:30",
+    "arrival": "04:30",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 69,
+    "endId": 34,
+    "departure": "05:30",
+    "arrival": "06:30",
+    "price": 12,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 6,
+    "endId": 89,
+    "departure": "07:30",
+    "arrival": "08:30",
+    "price": 7,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 52,
+    "endId": 23,
+    "departure": "09:30",
+    "arrival": "10:30",
+    "price": 11,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 97,
+    "endId": 46,
+    "departure": "11:30",
+    "arrival": "12:30",
+    "price": 14,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 38,
+    "endId": 81,
+    "departure": "13:30",
+    "arrival": "14:30",
+    "price": 8,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 53,
+    "endId": 40,
+    "departure": "15:30",
+    "arrival": "16:30",
+    "price": 10,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 86,
+    "endId": 11,
+    "departure": "17:30",
+    "arrival": "18:30",
+    "price": 6,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 49,
+    "endId": 74,
+    "departure": "19:30",
+    "arrival": "20:30",
+    "price": 13,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 92,
+    "endId": 58,
+    "departure": "21:30",
+    "arrival": "22:30",
+    "price": 9,
+    "date": "2025-05-21"
+  },
+  {
+    "startId": 63,
+    "endId": 98,
+    "departure": "23:30",
+    "arrival": "00:30",
+    "price": 7,
     "date": "2025-05-21"
   }
 ]

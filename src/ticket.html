@@ -24,7 +24,7 @@
         <h1 class="text-xl font-bold">Jade.PL</h1>
       </a>
 
-      <nav class="hidden space-x-6 md:flex items-center">
+      <nav class="hidden space-x-6 md:flex items-end">
         <a href="../index.html" class="text-xl font-bold">Home</a>
 
         <a href="../index.html#buy-ticket" class="text-xl font-bold"
@@ -52,30 +52,31 @@
       </button>
     </header>
 
-    <nav id="mobile-menu" class="flex flex-row items-center justify-between bg-gray-900 px-6 pb-4 md:hidden">
-      <div>
-        <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
+    <nav
+      id="mobile-menu"
+      class="hidden flex-row justify-between items-center bg-gray-900 px-6 pb-4 md:hidden"
+    >
+      <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
 
-        <a href="../index.html#buy-ticket" class="block py-2 text-lg text-white"
-          >Buy ticket</a
-        >
+      <a href="../index.html#online" class="block py-2 text-lg text-white"
+        >Buy ticket</a
+      >
 
-        <a href="../index.html#about" class="block py-2 text-lg text-white"
-          >About</a
-        >
+      <a href="../index.html#about" class="block py-2 text-lg text-white"
+        >About</a
+      >
 
-        <a href="../index.html#footer" class="block py-2 text-lg text-white"
-          >Contact</a
-        >
-      </div>
+      <a href="#footer" class="block py-2 text-lg text-white">Contact</a>
 
-      <a href="myTicket.html"
-        ><i class="fa-solid fa-user text-xl text-white"></i>
-      </a>
+      <a href="myTicket.html" class="block py-2 text-lg text-white"
+        >My ticket</a
+      >
     </nav>
 
     <main class="flex flex-col bg-gray-800 p-10 pb-28">
-      <div class="flex flex-row items-start justify-between space-y-10">
+      <div
+        class="flex flex-col md:flex-row items-start justify-between space-y-2 md:space-y-10"
+      >
         <h2 class="text-white text-left pt-4 text-3xl xl:text-4xl font-bold">
           Bus schedule: <span id="pointA">Kyiv</span> -
           <span id="pointB">Krakow</span>
