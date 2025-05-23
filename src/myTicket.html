@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jade.Pl</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <script src="../scripts/myTicket.js"></script>
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between bg-gray-900 p-5 px-6 text-white md:px-20"
+    >
+      <a class="flex items-center space-x-4" href="../index.html">
+        <img class="h-10 w-10" src="../images/logo.png" alt="logo" />
+
+        <h1 class="text-xl font-bold">Jade.PL</h1>
+      </a>
+
+      <nav class="hidden space-x-6 md:flex">
+        <a href="../index.html" class="text-xl font-bold">Home</a>
+
+        <a href="../index.html#buy-ticket" class="text-xl font-bold"
+          >Buy ticket</a
+        >
+
+        <a href="../index.html#about" class="text-xl font-bold">About</a>
+
+        <a href="../index.html#footer" class="text-xl font-bold">Contact</a>
+      </nav>
+
+      <button onclick="toggleMenu()" class="md:hidden">
+        <svg class="h-6 w-6" fill="none" stroke="white" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </header>
+
+    <nav id="mobile-menu" class="hidden bg-gray-900 px-6 pb-4 md:hidden">
+      <a href="../index.html" class="block py-2 text-lg text-white">Home</a>
+
+      <a href="../index.html#buy-ticket" class="block py-2 text-lg text-white"
+        >Buy ticket</a
+      >
+
+      <a href="../index.html#about" class="block py-2 text-lg text-white"
+        >About</a
+      >
+
+      <a href="../index.html#footer" class="block py-2 text-lg text-white"
+        >Contact</a
+      >
+    </nav>
+
+    <main>
+      <section class="flex flex-col py-10 md:px-20">
+        <h1
+          class="text-white mb-6 text-center text-3xl font-bold md:text-6xl pb-10"
+        >
+          My ticket
+        </h1>
+
+        <div
+          id="myticketsContainer"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4"
+        >
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="footer"
+      class="flex flex-col items-center justify-center bg-gray-900 p-10 text-white space-y-6"
+    >
+      <div class="flex space-x-4 md:space-x-10">
+        <a href="#"
+          ><i
+            class="fab fa-facebook text-blue-600 text-3xl md:text-4xl hover:text-blue-800"
+          ></i
+        ></a>
+
+        <a href="#"
+          ><i
+            class="fab fa-twitter text-sky-500 text-3xl md:text-4xl hover:text-sky-700"
+          ></i
+        ></a>
+
+        <a href="#"
+          ><i
+            class="fab fa-instagram text-pink-500 text-3xl md:text-4xl hover:text-pink-700"
+          ></i
+        ></a>
+
+        <a href="#"
+          ><i
+            class="fab fa-linkedin text-blue-700 text-3xl md:text-4xl hover:text-blue-900"
+          ></i
+        ></a>
+
+        <a href="#"
+          ><i
+            class="fab fa-youtube text-red-600 text-3xl md:text-4xl hover:text-red-800"
+          ></i
+        ></a>
+      </div>
+
+      <div class="mt-4">
+        <p class="text-center text-white text-xl">
+          &copy; 2023 Jade.PL. All rights reserved.
+        </p>
+
+        <p class="text-center text-white text-xl">Made with ❤️ by Jade Team</p>
+
+        <p class="text-white pt-6 text-center">
+          Don't postpone a business trip or a trip because you couldn't buy bus
+          tickets in time. With the Jade.PL service, you can find seats on a
+          convenient bus to the desired destination even a couple of days before
+          your trip.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
