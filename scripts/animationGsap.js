@@ -8,8 +8,21 @@ document.addEventListener("DOMContentLoaded", function () {
     duration: 1,
     stagger: 0.03,
     ease: "power1.out",
+    filter: "blur(1px)",
     scrollTrigger: {
       trigger: "#buy-ticket",
+      start: "top 80%",
+    },
+  });
+
+  gsap.from("#form", {
+    opacity: 0,
+    duration: 1,
+    y: 50,
+    ease: "power1.out",
+    filter: "blur(1px)",
+    scrollTrigger: {
+      trigger: "#form",
       start: "top 80%",
     },
   });
