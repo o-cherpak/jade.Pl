@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
 
   const logo = document.getElementById("logo");
-  
+
   gsap.from(".letter", {
     opacity: 0,
     duration: 1,
