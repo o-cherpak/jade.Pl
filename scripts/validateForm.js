@@ -34,9 +34,25 @@ form.addEventListener("submit", async (event) => {
 
   if (!validation) {
     alertContainer.classList.remove("hidden");
+
+    gsap.from(alertContainer, {
+      opacity: 0,
+      y: -20,
+      duration: 0.4,
+      ease: "power2.out",
+    });
+
     setTimeout(() => {
-      alertContainer.classList.add("hidden");
-    }, 3000);
+      gsap.to(alertContainer, {
+        opacity: 0,
+        y: -40,
+        duration: 0.4,
+        ease: "power2.in",
+        onComplete: () => {
+          alertContainer.classList.add("hidden");
+        },
+      });
+    }, 2000);
     return;
   }
 

@@ -504,6 +504,9 @@
   .bg-blue-600 {
     background-color: var(--color-blue-600);
   }
+  .bg-blue-800 {
+    background-color: var(--color-blue-800);
+  }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
@@ -918,10 +921,31 @@
       }
     }
   }
+  .hover\:cursor-cell {
+    &:hover {
+      @media (hover: hover) {
+        cursor: cell;
+      }
+    }
+  }
   .hover\:cursor-pointer {
     &:hover {
       @media (hover: hover) {
         cursor: pointer;
+      }
+    }
+  }
+  .hover\:cursor-text {
+    &:hover {
+      @media (hover: hover) {
+        cursor: text;
+      }
+    }
+  }
+  .hover\:cursor-w-resize {
+    &:hover {
+      @media (hover: hover) {
+        cursor: w-resize;
       }
     }
   }
