@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 function renderTickets(startCityId, endCityId, schedules, cities, date) {
   const rightSchedules = schedules.filter(
-    (s) => s.startId === startCityId && s.endId === endCityId && s.date === date
+    (s) =>
+      s.startId === startCityId && s.endId === endCityId && s.date === date,
   );
 
   const startCity = cities.find((c) => c.id === startCityId);

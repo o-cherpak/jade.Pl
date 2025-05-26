@@ -6,6 +6,8 @@
     <title>Jade.pl</title>
     <link rel="icon" href="../images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="output.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="../scripts/menu.js"></script>
     <script src="../scripts/takeData.js"></script>
     <script type="module" src="../scripts/renderTicket.js"></script>
@@ -106,14 +108,16 @@
       <div
         class="flex flex-col md:flex-row items-start justify-between space-y-2 md:space-y-10"
       >
-        <h2 class="text-white text-left pt-4 text-3xl xl:text-4xl font-bold">
+        <h2
+          class="text-white text-center md:text-left pt-4 text-3xl xl:text-4xl font-bold"
+        >
           Bus schedule: <span id="pointA">Kyiv</span> -
           <span id="pointB">Krakow</span>
         </h2>
 
         <h2
           id="date"
-          class="text-white text-left pt-4 text-xl xl:text-2xl font-medium"
+          class="text-white text-left pt-4 text-xl xl:text-2xl font-medium pb-4"
         >
           02.17.2025
         </h2>
